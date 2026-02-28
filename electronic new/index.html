@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bhagat Electronics & Electricals| Atheha Pratapgarh</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">BHAGAT <span>ELECTRONIC & ELCTRICALS</span></div>
+
+    <input type="text" id="searchInput" placeholder="Search Products...">
+
+    <a href="https://wa.me/918795391467" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i> Enquiry
+    </a>
+</nav>
+
+<header class="hero">
+    <h1>Powering Atheha With <span>Quality Electronics</span></h1>
+    <p>Electronic & Electricals Items & Spare Parts Available</p>
+</header>
+
+<section class="filters">
+    <button onclick="filterProducts('all')">All</button>
+    <button onclick="filterProducts('tools')">Tools</button>
+    <button onclick="filterProducts('spares')">Spare Parts</button>
+    <button onclick="filterProducts('lighting')">Lighting</button>
+    <button onclick="filterProducts('appliances')">Appliances</button>
+</section>
+
+<section class="product-grid" id="productGrid"></section>
+
+<footer>
+    <p>Bhagat Electronics & Electricals | Gauriganj Road Atheha Pratapgarh</p>
+    <p>Call: 8795391467 | 9818231366</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
