@@ -9,7 +9,7 @@ let products = [
     { name: "Bluetooth Party Speaker", price: 6500, category: "appliances", image: "images/sound3.jpg" },
     { name: "DJ Bass Speaker 12 Inch", price: 9800, category: "appliances", image: "images/sound4.jpg" },
     { name: "Home Theater System 5.1", price: 15500, category: "appliances", image: "images/sound2.jpg" },
-    { name: "Portable Mini Speaker", price: 1500, category: "appliances", image: "images/minispeaker.jpg" },
+    { name: "Portable Mini Speaker", price: 1500, category: "appliances", image: "images/sound5.jpg" },
 
     { name: "LED Emergency Light", price: 1200, category: "lighting", image: "images/emergencylight.jpg" },
     { name: "LED Bulb 12W", price: 120, category: "lighting", image: "images/bulb12w.jpg" },
